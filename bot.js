@@ -40,4 +40,4 @@ function tweeted(err, data, response) {
 //invokes function that tweets the grid
 tweet();
 //makes the bot wait 3 hours before tweeting again hopefully
-setInterval(tweet, 3000 * 60 * 60);
+// setInterval(tweet, 3000 * 60 * 60);
