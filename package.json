@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "emoji-list": "^1.0.2",
     "emoji-named-characters": "^1.0.2",
     "emojis-list": "^3.0.0",
