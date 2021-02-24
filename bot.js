@@ -31,7 +31,7 @@ function tweeted(err, data, response) {
 
 // tweets the grid
 function tweet() {
-    T.post('statuses/update', { status: `${emojiGrid()}` }, tweeted(err, data, response))
+    T.post('statuses/update', { status: `${emojiGrid()}` }, tweeted)
 };
 
 //invokes function that tweets the grid
